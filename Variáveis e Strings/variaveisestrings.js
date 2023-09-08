@@ -19,5 +19,10 @@ const pokemon = "pikachu, 3, eletric, (thunderShock - QUICK attack - thuNder), S
 
 let partes = pokemon.split(",");
 
-partes[0] = partes[0].toUpperCase();
-console.log(partes[0]);
+partes[0] = partes[0].charAt(0).toUpperCase() + partes[0].slice(1);
+
+partes[2] = partes[2].toUpperCase();
+
+
+console.log(partes);
+
