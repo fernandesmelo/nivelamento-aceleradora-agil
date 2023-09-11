@@ -36,9 +36,12 @@ partes[3] = partes[3].replace("(", "").replace(")", "");
 
 partes[3] = partes[3].toLocaleLowerCase();
 
-partes[3] = partes[3].split("-");
+let attacks = partes[3].split("-");
 
-console.log(partes[3]);
+attacks[0] = attacks[0].charAt(0).toUpperCase() + attacks[0].slice(1);
+
+console.log(attacks[0]);
+console.log(attacks[0].slice(1));
 
 
 
