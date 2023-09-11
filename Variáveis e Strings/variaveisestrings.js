@@ -21,7 +21,7 @@ const pokemon = "pikachu, 3, eletric, (thunderShock - QUICK attack - thuNder), S
 //Divide a string, utilizando a virgula como parametro de separação:
 let partes = pokemon.split(",");
 
-//Transformando a primeira letra do picachu:
+//Transformando a primeira letra do picachu teste:
 partes[0] = partes[0].charAt(0).toUpperCase() + partes[0].slice(1);
 
 //Formatando a palavra eletric:
