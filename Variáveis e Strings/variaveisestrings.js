@@ -38,10 +38,23 @@ partes[3] = partes[3].toLocaleLowerCase();
 
 let attacks = partes[3].split("-");
 
+//Laercio
+//Thundershock
+attacks[0] = attacks[0].trim();
 attacks[0] = attacks[0].charAt(0).toUpperCase() + attacks[0].slice(1);
 
-console.log(attacks[0]);
-console.log(attacks[0].slice(1));
+//Quick 
+attacks[1] = attacks[1].trim();
+attacks[1] = attacks[1].charAt(0).toUpperCase() + attacks[1].slice(1);
+
+//Thunder
+attacks[2] = attacks[2].trim();
+attacks[2] = attacks[2].charAt(0).toUpperCase() + attacks[2].slice(1);
+
+// console.log(attacks[0]);
+
+
+console.log(attacks);
 
 
 
