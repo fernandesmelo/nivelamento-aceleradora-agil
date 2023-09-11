@@ -48,7 +48,7 @@ quickAttack = quickAttack.charAt(0).toUpperCase() + quickAttack.slice(1); // Con
 
 //Thunder
 let thunder = attacks[2].trim(); // Obtém o terceiro ataque da array 'attacks', remove espaços em branco no início e no final e armazena em 'thunder'.
-thunder = thunder.charAt(0).toUpperCase() + thunder.slice(1); // Convrete a primeira letra de 'thunder' para maiúscula.
+thunder = thunder.charAt(0).toUpperCase() + thunder.slice(1); // Converte a primeira letra de 'thunder' para maiúscula.
 // Obtém a quinta parte do array 'partes' e a converte para letras minúsculas:
 const palavraStatic = partes[4].toLocaleLowerCase();
 
@@ -61,7 +61,7 @@ const cerulean = partes[6].toLowerCase();
 let pallet = partes[7].replace("(", "").replace(")", "");
 pallet = pallet.toLowerCase();
 
-//Joyce e Laércio
+//Joyce e Laércio Fernandes
 let resultado = `
 Name: ${pikachu}
 Lv: ${nivel} - Type: ${electric}
