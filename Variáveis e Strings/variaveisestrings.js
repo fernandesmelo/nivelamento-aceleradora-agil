@@ -51,10 +51,18 @@ attacks[1] = attacks[1].charAt(0).toUpperCase() + attacks[1].slice(1);
 attacks[2] = attacks[2].trim();
 attacks[2] = attacks[2].charAt(0).toUpperCase() + attacks[2].slice(1);
 
-// console.log(attacks[0]);
+partes[4] = partes[4].toLocaleLowerCase();
 
+// Laércio 
+partes[5] = partes[5].replace("(", "").replace(")", "");
+partes[5] = partes[5].toLowerCase();
 
-console.log(attacks);
+partes[6] = partes[6].toLowerCase();
+
+partes[7] = partes[7].replace("(", "").replace(")", "");
+partes[7] = partes[7].toLowerCase();
+
+console.log(partes[7]);
 
 
 
