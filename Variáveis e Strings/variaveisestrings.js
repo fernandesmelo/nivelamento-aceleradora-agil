@@ -61,9 +61,14 @@ const cerulean = partes[6].toLowerCase();
 let pallet = partes[7].replace("(", "").replace(")", "");
 pallet = pallet.toLowerCase();
 
-let resultado = 
+//Joyce
+let resultado = `
+Name: ${pikachu}
+Lv: ${nivel} - Type: ${electric}
+Ability: ${static}
+`
 
-console.log(pallet);
+console.log(resultado);
 
 // Name: Pikachu
 //     Lv: 3 - Type: ELETRIC
