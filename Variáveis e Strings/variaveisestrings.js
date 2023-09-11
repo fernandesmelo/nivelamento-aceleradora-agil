@@ -38,7 +38,7 @@ partes[3] = partes[3].toLocaleLowerCase();
 
 let attacks = partes[3].split("-");
 
-//Laercio
+//Joyce 
 //Thundershock
 attacks[0] = attacks[0].trim();
 attacks[0] = attacks[0].charAt(0).toUpperCase() + attacks[0].slice(1);
