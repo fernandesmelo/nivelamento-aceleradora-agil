@@ -1,4 +1,4 @@
-// Fça um programa que receba três notas, calcule e mostre a média artimética entre elas.
+// Faça um programa que receba três notas, calcule e mostre a média artimética entre elas.
 
 function media (nota1, nota2, nota3) {
     return ((nota1 + nota2 + nota3) / 3).toFixed(1)
