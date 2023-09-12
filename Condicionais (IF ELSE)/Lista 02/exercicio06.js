@@ -4,7 +4,7 @@
 
 //FUNCTIONS 
 const aVista = function (valor){
-    return (valor - (valor * 0.1)).toFixed(2);
+    return (valor - (valor * 0.1));
 }
 
 const duasParcelas = function (valor) {
@@ -12,19 +12,17 @@ const duasParcelas = function (valor) {
 }
 
 const quatroParcelas = function (valor) {
-    let acresc = (valor * 0.05).toFixed(2);
-    let novoValor = valor + acresc;
-    return novoValor;
+    return valor + (valor * 0.05);
 }
 
-let valor = Number((Math.random() * 100).toFixed(2));
+let valor = Number((Math.random() * 100).toFixed(2)); // .toFixed() TRANSFORMA EM STRING 
 let modoPagamento = "Quatro parcelas"             //"A vista" ou "Duas parcelas" ou "Quatro parcelas"
 
-console.log(valor, typeof valor);
+console.log(valor);
 
 if(modoPagamento == "A vista"){
     valor  = aVista(valor);
-    console.log(`O valor com 10% de desconto é ${valor}`);
+    console.log(`O valor com 10% de desconto é ${valor.toFixed(2)}`);
 
 }else if(modoPagamento == "Duas parcelas"){
     valor = duasParcelas(valor);
@@ -32,7 +30,7 @@ if(modoPagamento == "A vista"){
 
 }else if(modoPagamento == "Quatro parcelas"){
     valor = quatroParcelas(valor);
-    console.log(`O valor com 5% de acréscimo é ${valor}`);
+    console.log(`O valor com 5% de acréscimo é ${valor.toFixed(2)}`);
 
 } else {
     console.log("Método de Pagamento Inválido");
