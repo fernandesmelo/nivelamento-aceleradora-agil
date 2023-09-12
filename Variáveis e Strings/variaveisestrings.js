@@ -85,8 +85,3 @@ Places:
 
 console.log(resultado);
 
-
-
-
-
-
