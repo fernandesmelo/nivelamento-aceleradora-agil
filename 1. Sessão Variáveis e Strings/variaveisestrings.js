@@ -63,12 +63,12 @@ let thunder = attacks[2].trim(); // Obtém o terceiro ataque da array 'attacks',
 thunder = thunder.charAt(0).toUpperCase() + thunder.slice(1); // Converte a primeira letra de 'thunder' para maiúscula.
 // Obtém a quinta parte do array 'partes' e a converte para letras minúsculas:
 const palavraStatic = partes[4].toLocaleLowerCase();
-//Tira o parenteses de abertura usando o replace() e transforma todas as letras em minúsculas
+// Tira o parenteses de abertura usando o replace() e transforma todas as letras em minúsculas.
 let veridian = partes[5].replace("(", "").replace(")", "");
 veridian = veridian.toLowerCase();
-//Atribui a uma váriavel e transforma todas as letras em minúsuculas
+// Atribui a uma váriavel e transforma todas as letras em minúsuculas.
 const cerulean = partes[6].toLowerCase();
-//Tira o parenteses de fechamento usando o replace() e transforma todas as letras em minúsuculas
+// Tira o parenteses de fechamento usando o replace() e transforma todas as letras em minúsuculas.
 let pallet = partes[7].replace("(", "").replace(")", "");
 pallet = pallet.toLowerCase();
 
