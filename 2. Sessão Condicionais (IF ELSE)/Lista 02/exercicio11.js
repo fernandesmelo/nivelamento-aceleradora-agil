@@ -14,7 +14,6 @@ rl.question('Digite o sobrenome: ', (sobrenome) => {
     // Fechar a interface de leitura
     rl.close();
 
-    // Exibir a mensagem formatada
     console.log(`Sr(a). ${nome} ${sobrenome}, é uma honra contar com sua presença!`);
   });
 });

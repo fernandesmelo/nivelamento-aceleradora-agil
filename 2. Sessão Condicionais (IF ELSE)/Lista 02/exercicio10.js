@@ -7,7 +7,7 @@ let diaNasc = 7;
 let mesNasc = 9;
 let anoNasc = 1998;
 
-function diasDeVida(diaNasc, mesNasc, anoNasc){
+function diasDeVida(diaNasc, mesNasc, anoNasc) {
     const diasNoAno = 365;
     const diasNoMes = 30;
 
@@ -15,7 +15,6 @@ function diasDeVida(diaNasc, mesNasc, anoNasc){
     const anoAtual = dataAtual.getFullYear();
     const mesAtual = dataAtual.getMonth() + 1;
     const diasAtual = dataAtual.getDate();
-
 
     const dias = diasAtual - diaNasc;
     const mes = mesAtual - mesNasc;
@@ -26,7 +25,7 @@ function diasDeVida(diaNasc, mesNasc, anoNasc){
     return diasDeVida;
 }
 
-console.log(`${nome} tem ${diasDeVida(diaNasc, mesNasc, anoNasc)} dias de vida`);
+console.log(`${nome} tem ${diasDeVida(diaNasc, mesNasc, anoNasc)} dias de vida.`);
 
 
 

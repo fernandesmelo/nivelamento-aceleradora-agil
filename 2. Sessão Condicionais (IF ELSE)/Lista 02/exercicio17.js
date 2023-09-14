@@ -23,8 +23,8 @@ let pe = parseInt(Math.random() * (100 - 1) + 1);
 
 console.log(`O valor em pés é ${pe}`, "\n");
 
-console.log(`${pe} pés = ${converteEmPolegadas(pe)} polegadas`);
-console.log(`${pe} pés = ${converteEmJardas(pe).toFixed(2)} jardas`);
-console.log(`${pe} pés = ${converteEmMilhas(pe).toFixed(2)} milhas`);
+console.log(`${pe} pés = ${converteEmPolegadas(pe)} polegadas.`);
+console.log(`${pe} pés = ${converteEmJardas(pe).toFixed(2)} jardas.`);
+console.log(`${pe} pés = ${converteEmMilhas(pe).toFixed(2)} milhas.`);
 
 

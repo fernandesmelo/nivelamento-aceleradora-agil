@@ -9,15 +9,15 @@ let precoFabrica = Math.random() * 50000;
 let percentualLucro = Math.floor(Math.random() * 100);
 let percentualImpostos = Math.floor(Math.random() * 100);
 
-function calculaLucroDistribuidor (precoFabrica, percentualLucro) {
+function calculaLucroDistribuidor(precoFabrica, percentualLucro) {
     return lucroDistribuidor = (percentualLucro / 100) * precoFabrica;
 }
 
-function calculaValorImpostos (precoFabrica, percentualImpostos) {
+function calculaValorImpostos(precoFabrica, percentualImpostos) {
     return imposto = (percentualImpostos / 100) * precoFabrica;
 }
 
-function precoFinalVeiculo (precoFabrica, lucroDistribuidor, imposto) {
+function precoFinalVeiculo(precoFabrica, lucroDistribuidor, imposto) {
     return precoFinal = precoFabrica + lucroDistribuidor + imposto;
 }
 

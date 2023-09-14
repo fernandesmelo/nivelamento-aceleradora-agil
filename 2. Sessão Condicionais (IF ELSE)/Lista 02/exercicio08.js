@@ -2,7 +2,7 @@
 // e o novo salário.
 
 
-function novoSalario () {
+function novoSalario() {
     let salario = Math.floor(Math.random() * 5000);
     let percentualAumento = Math.floor(Math.random() * 100);
 

@@ -15,5 +15,5 @@ const calculaIdade2050 = anoNascimento => {
 
 console.log(`
 Hoje você tem ${calculaIdadeHoje(anoNascimento)} anos de idade.
-Em 2050 você terá ${calculaIdade2050(anoNascimento)} anos de idade
+Em 2050 você terá ${calculaIdade2050(anoNascimento)} anos de idade.
 `)

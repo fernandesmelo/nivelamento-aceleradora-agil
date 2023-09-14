@@ -3,7 +3,7 @@
 
 let salario = Math.floor(Math.random() * 5000);
 
-function novoSalario (salario) {
+function novoSalario(salario) {
     let novoSalario = (salario * 0.25) + salario;
     return novoSalario
 }
