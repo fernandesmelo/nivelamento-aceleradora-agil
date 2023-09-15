@@ -1,0 +1,1 @@
+// Criar um algoritmo que leia dois números e mostre o quadrado do menor número e raiz quadrada do maior número, se for possível.

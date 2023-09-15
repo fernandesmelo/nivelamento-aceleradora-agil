@@ -1,0 +1,1 @@
+// 1 . Construa um algoritmo que leia dosi valores numéricos e efetue a adição; caso o resultado seja maior que 50, apresentá-lo.

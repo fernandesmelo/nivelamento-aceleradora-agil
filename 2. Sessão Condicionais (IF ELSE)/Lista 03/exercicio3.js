@@ -1,0 +1,1 @@
+//Construa um algoritmo que determine (imprima) se um dado númeor N inteiro, recebidoatravés do teclado é PAR ou ÍMPAR.
