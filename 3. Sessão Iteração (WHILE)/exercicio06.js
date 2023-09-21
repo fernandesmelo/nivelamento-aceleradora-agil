@@ -12,7 +12,7 @@ rl.question("Informe um número: ", (m) => {
     rl.question("Informe um número maior que o primeiro: ", (n) => {
         rl.close();
         
-        console.log("Os números pares entre", m, "e", n, "são:");
+        console.log("Os números divisíveis por 3 entre", m, "e", n, "são:");
         m++
         for (let menor = m; menor < n; menor++) {
             if (menor % 3 === 0) {
