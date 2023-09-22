@@ -1,15 +1,16 @@
-// Escreva um algoritmo para determinar se um número A é divisível por um outro número B.
-// Esses valores devem ser fornecidos pelo usuário.
+// Escreva um algoritmo para determinar se um número A é divisível por um outro número B. Esses valores devem ser 
+// fornecidos pelo usuário.
 
 const readline = require('readline');
 
-let rl = readline.createInterface(
-                process.stdin, process.stdout);
+const rl = readline.createInterface ({
+  input: process.stdin,
+  output: process.stdout
+});
 
 rl.question('Digite um número: ', (numA) => { 
     rl.question('Digite mais um número: ', (numB) => { 
-        // Fechar a interface de leitura
-        rl.close();
+        rl.close(); // Fechar a interface de leitura
 
         if (numA % numB === 0) {
             console.log(numA, "é divisível por", numB);

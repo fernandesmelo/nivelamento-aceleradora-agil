@@ -34,5 +34,6 @@ if (a <= b && a <= c) {
         maior = a;
     }
 }
+
 console.log("Números Gerados:", a, b, c);
 console.log("Valores em ordem ascendente:", menor, meio, maior);

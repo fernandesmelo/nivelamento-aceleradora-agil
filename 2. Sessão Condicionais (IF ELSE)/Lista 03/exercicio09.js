@@ -2,12 +2,13 @@
 
 const readline = require('readline');
 
-let rl = readline.createInterface(
-                process.stdin, process.stdout);
+const rl = readline.createInterface ({
+  input: process.stdin,
+  output: process.stdout
+});
 
 rl.question('Digite um número: ', (numA) => { 
     rl.question('Digite mais um número: ', (numB) => { 
-        // Fechar a interface de leitura
         rl.close();
 
         if (numA > numB) {

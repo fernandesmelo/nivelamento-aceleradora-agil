@@ -13,7 +13,7 @@ if (a > b && a > c) {
     if (b > c) {
         meio = b;
         menor = c;
-    }else{
+    } else {
         meio = c;
         menor = b;
     }
@@ -23,16 +23,16 @@ if (a > b && a > c) {
     if (a > c) {
         meio = a;
         menor = c;
-    }else{
+    } else {
         meio = c;
         menor = a;
     }
-}else{
+} else {
     maior = c;
     if (b > a) {
         meio = b;
         menor = a;
-    }else{
+    } else {
         meio = a;
         menor = b;
     }

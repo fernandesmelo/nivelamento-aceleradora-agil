@@ -1,4 +1,5 @@
-// Criar um algoritmo que leia dois números e mostre o quadrado do menor número e raiz quadrada do maior número, se for possível.
+// Criar um algoritmo que leia dois números e mostre o quadrado do menor número e raiz quadrada do maior número, se for 
+// possível.
 
 let num1 = Math.floor(Math.random() * 100);
 let num2 = Math.floor(Math.random() * 100);
