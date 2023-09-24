@@ -20,10 +20,10 @@ No nivelamento tinhamos vários cards, cada um sobre um assunto diferente conten
 * Exercícios Endpoints Node.js
 
 ## 🚀 Começando
-Essas instruções permitirão que você tenha uma cópia do projeto em execução na sua máquina local para desenvolvimento e testes.
+Essas instruções permitirão que você tenha uma cópia dos exercícios em execução na sua máquina local.
 
 ### 📋 Pré-requisitos
-Você precisa ter instalado  no seu sistema operacional um navegador web para visualizar o projeto localmente e o VSCode para ter acesso aos códigos. 
+Você precisa ter instalado  no seu sistema operacional um navegador web para visualizar alguns exercícios localmente e o VSCode para ter acesso aos códigos. 
 ### 🔧 Instalação
 
 1. Clone este repositório para o seu computador.
