@@ -4,7 +4,7 @@ Aqui guardo todos os exercícios que fiz no nivelamento do [Programa Aceleradora
 
 ![1654609934941](https://github.com/fernandesmelo/nivelamento-aceleradora-agil/assets/113717317/d84ae139-82bc-40e2-88bb-f32bbd692427)
 
-No nivelamento tinhamos vários cards, cada um sobre um assunto diferente contendo vários exercícios para resolver. Os assuntos eram:
+No nivelamento tinhamos vários cards, cada um sobre um assunto diferente contendo vários exercícios para resolver. Os cards foram:
 
 * Sessão: Variáveis e Strings
 * Sessão: Condicionais (IF/ELSE)
