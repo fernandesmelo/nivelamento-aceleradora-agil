@@ -2,7 +2,7 @@
 
 Aqui guardo todos os exercícios que fiz no nivelamento do [Programa Aceleradora Ágil](https://www.linkedin.com/school/aceleradora-%C3%A1gil/mycompany/). No mesmo você fica resolvendo exercícios de programação junto com outra pessoa, é como se fosse um pair programming, só que cada um no seu computador. E ressalto que essa forma de estudo é muito eficaz! Aprendi muito mais do que estudando sozinho.
 
-![1654609934941](https://github.com/fernandesmelo/nivelamento-aceleradora-agil/assets/113717317/d84ae139-82bc-40e2-88bb-f32bbd692427)
+![31282056_6x9k_bweo_220705](https://github.com/fernandesmelo/nivelamento-aceleradora-agil/assets/113717317/26b1acc5-d3a2-4cfa-88e1-b9fe9512bfeb)
 
 No nivelamento tinhamos vários cards, cada um sobre um assunto diferente contendo vários exercícios para resolver. Os cards foram:
 
@@ -14,6 +14,7 @@ No nivelamento tinhamos vários cards, cada um sobre um assunto diferente conten
 * Sessão: Array
 * Sessão: Objeto
 * Exercícios Objeto JavaScript
+
 * Sessão: Callback
 * Sessão: Map, Filter, Find
 * Exercício Pokemon Map Filter Find
