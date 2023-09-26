@@ -7,3 +7,14 @@
 // A cada subtração bem-sucedida, aumente o valor da variável de quociente em 1.
 // O valor final da variável de quociente será o quociente inteiro desejado.
 
+let quociente = 0;
+
+let dividendo = parseFloat(prompt("Informe o dividendo: "));
+let divisor = parseInt(prompt("Informe o divisor: "));
+
+while (dividendo >= divisor) {
+    dividendo -= divisor;
+    quociente++;
+}
+
+console.log(`O quociente inteiro é ${quociente}`);
