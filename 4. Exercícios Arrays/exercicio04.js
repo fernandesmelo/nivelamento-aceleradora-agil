@@ -2,15 +2,15 @@
 // mesmos dados, mas de maneira invertida, ou seja, o primeiro elemento ficará na última posição, o segundo na penúltima, 
 // e assim por diante.
 
-// const geraVetor = () =>{
-//     let array = new Array(30);
-//     for (let i = 0; i < array.length; i++){
-//         array.push(Math.floor(Math.random() * 50));
-//     }
-//     console.log(array);
+const geraVetor = () =>{
+    let array = new Array();
+    for (let i = 0; i < 30; i++){
+        array.push(Math.floor(Math.random() * 50));
+    }
+    console.log(array);
     
-//     return array;
-// }
+    return array;
+}
 
 
 
