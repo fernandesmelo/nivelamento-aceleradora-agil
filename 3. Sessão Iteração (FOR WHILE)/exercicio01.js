@@ -6,7 +6,8 @@ const imprimeNumeros = () => {
     }     
 }
 
-console.log("Números de 1 a 40:");
+console.log("Números de 1 a 40: ");
+
 imprimeNumeros();
 
 

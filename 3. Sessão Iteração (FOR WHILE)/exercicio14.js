@@ -20,9 +20,9 @@ function verificaMultiplos() {
       if (!isNaN(numero)) {
         if (numero !== -1 && numero >= 0) {
 
-          if(numero % 2 === 0 && numero % 5 === 0){
+          if (numero % 2 === 0 && numero % 5 === 0) {
             multiplos2e5.push(numero);
-          }else if (numero % 2 === 0 && numero % 3 === 0){
+          } else if (numero % 2 === 0 && numero % 3 === 0) {
             multiplos2e3.push(numero);
           }
 

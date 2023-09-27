@@ -8,5 +8,6 @@ const imprimeNumeros = (n) => {
     }     
 }
 
-console.log("Números de 0 a",n+":");
+console.log("Números de 0 a", n + ":");
+
 imprimeNumeros(n);

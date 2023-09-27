@@ -13,7 +13,7 @@ rl.question("Informe um número inicial: ", (m) => {
         rl.question("Agora informe a quantidade de incrementos: ", (n) => {
             rl.close();
             
-            console.log(`Mostrando os próximos ${n} números a partir de ${m}, com incrementos de ${i}:`);
+            console.log(`Mostrando os próximos ${n} números a partir de ${m}, com incrementos de ${i}: `);
             for (let numero = 0; numero < n; numero++) {
                 console.log(m);
                 m += i;

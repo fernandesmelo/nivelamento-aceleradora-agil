@@ -5,12 +5,12 @@ let alturaChico = 1.50;
 let alturaZe = 1.10;
 let idade = 0;
 
-while(alturaChico > alturaZe){
+while (alturaChico > alturaZe) {
     alturaChico += 0.02;
     alturaZe += 0.03;
     idade++;
 }
 
-console.log(`Serão necessários ${idade} anos para Zé ter mais altura que Chico`);
+console.log(`Serão necessários ${idade} anos para Zé ter mais altura que Chico.`);
 
 

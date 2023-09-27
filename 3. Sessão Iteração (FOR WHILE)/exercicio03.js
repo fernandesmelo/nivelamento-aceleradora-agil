@@ -12,7 +12,7 @@ rl.question("Informe um número: ", (m) => {
     rl.question("Informe um número maior que o primeiro: ", (n) => {
         rl.close();
         
-        console.log("Os números entre", m, "e", n, "são:");
+        console.log("Os números entre", m, "e", n, "são: ");
         m++
         for (let menor = m; menor < n; menor++) {
             console.log(menor);

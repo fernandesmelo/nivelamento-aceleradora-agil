@@ -4,7 +4,7 @@
 const taxaConversao = 2.54;
 let myArray = [];
 
-for(let numero = 0; numero <= 20; numero++){
+for (let numero = 0; numero <= 20; numero++) {
     myArray.push(numero * taxaConversao);
 }
 

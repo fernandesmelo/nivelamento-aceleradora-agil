@@ -19,9 +19,9 @@ function contaParImpar() {
 
       if (!isNaN(numero)) {
         if (numero !== -1 && numero >= 0) {
-          if(numero % 2 ===0){
+          if (numero % 2 ===0) {
             contPar++;
-          }else{
+          } else {
             contImpar++;
           }
           getInput();

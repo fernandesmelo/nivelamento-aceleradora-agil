@@ -4,13 +4,13 @@
 let numero;
 let count = 0;
 
-do{
+do {
     numero = parseInt(prompt(`Digite um número:`));
 
-    if(Number.isInteger(Math.sqrt(numero))){
+    if(Number.isInteger(Math.sqrt(numero))) {
         count++;
     }
 
-}while(numero !== 0);
+} while(numero !== 0);
 
 console.log(`O número de quadrados pefeitos é ${count}`);

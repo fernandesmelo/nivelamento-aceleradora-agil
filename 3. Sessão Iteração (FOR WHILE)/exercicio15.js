@@ -25,7 +25,7 @@ function calculaMedia() {
       if (!isNaN(numero)) {
         if (numero !== 0 && numero > 0) {
           
-          if(numero % 2 === 0) {
+          if (numero % 2 === 0) {
             qtdPar++;
             somaPar = somaPar + numero;
             mediaPar = somaPar / qtdPar;
@@ -36,7 +36,6 @@ function calculaMedia() {
           qtdGlobal = qtdPar + qtdImpar;
           somaGlobal = somaGlobal + numero;
           mediaGlobal = somaGlobal / qtdGlobal;
-          
           getInput();
         } else if (numero !== 0) {
           console.log('Por favor, digite um número positivo.');
