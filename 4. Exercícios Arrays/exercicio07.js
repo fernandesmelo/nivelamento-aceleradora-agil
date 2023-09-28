@@ -25,7 +25,7 @@ const relatorioVendas = (codigo, preco, quantidade) => {
     console.log(`=========================Relatório Vendas=======================`);
     console.log(`\tCódigo\t|\tPreço\t|\tQuantidade\t|Total de Vendas\t|Comissão`);
     for(let i = 0; i < codigo.length; i++){
-        console.log(`\t${codigo[i]}\t|\t${preco[i].toFixed(2)}\t|\t${quantidade[i]}\t|\t\t${(totalVendas[i]).toFixed(2)}\t|\t${(totalVendas[i] * 0.05).toFixed(2)}`);
+        console.log(`\t${codigo[i]}\t|\t${preco[i].toFixed(2)}\t|\t${quantidade[i]}\t\t|\t\t${(totalVendas[i]).toFixed(2)}\t\tj|\t${(totalVendas[i] * 0.05).toFixed(2)}`);
     }
 
     console.log(`\nO produto mais vendido: ${maisVendido.sort().pop()}`);

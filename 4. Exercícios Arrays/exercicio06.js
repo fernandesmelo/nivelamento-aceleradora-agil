@@ -3,7 +3,7 @@
 
 const geraNotas = () =>{
     let notas = new Array();
-    for (let i = 0; i < 50; i++){
+    for (let i = 0; i < 15; i++){
         notas.push(parseFloat((Math.random() * 10).toFixed(2)));
     }
     
@@ -27,7 +27,7 @@ const verificaMedia = (notas, media) =>{
     }
 
     console.log(`A quantidade de notas que estão 10% acima da média é ${notasAcima}
-                A quantidade de notas que estão 10% acima da média é ${notasAbaixo}`);
+                A quantidade de notas que estão 10% abaixo da média é ${notasAbaixo}`);
 
     return;
 }
