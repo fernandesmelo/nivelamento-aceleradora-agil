@@ -15,16 +15,15 @@ const relatorioVendas = (codigo, preco, quantidade) => {
 
     const totalVendas = [];
     
-    for(let i=0; i<codigo.length; i++){
+    for (let i=0; i<codigo.length; i++) {
         totalVendas.push(preco[i] * quantidade[i]);
     }
 
     const maisVendido = totalVendas;
 
-    //Emite o relatório de Vendas
     console.log(`=========================Relatório Vendas=======================`);
     console.log(`\tCódigo\t|\tPreço\t|\tQuantidade\t|Total de Vendas\t|Comissão`);
-    for(let i = 0; i < codigo.length; i++){
+    for (let i = 0; i < codigo.length; i++) {
         console.log(`\t${codigo[i]}\t|\t${preco[i].toFixed(2)}\t|\t${quantidade[i]}\t\t|\t\t${(totalVendas[i]).toFixed(2)}\t\tj|\t${(totalVendas[i] * 0.05).toFixed(2)}`);
     }
 

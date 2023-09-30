@@ -4,14 +4,14 @@
 
 let array = [-1, -3, 0, -2, -1, 4, 8, 10];
 
-const vetoresResultantes = (array) =>{
+const vetoresResultantes = (array) => {
     let vetorPositivos = [];
     let vetorNegativos = [];
 
-    for (let i=0; i<array.length; i++){
+    for (let i=0; i<array.length; i++) {
         if (array[i] >= 0) {
             vetorPositivos.push(array[i]);
-        }else{
+        } else {
             vetorNegativos.push(array[i]);
         }
     }
