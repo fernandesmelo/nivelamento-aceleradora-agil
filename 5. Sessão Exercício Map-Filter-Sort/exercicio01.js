@@ -1,5 +1,6 @@
 //1. Fazer uma função que retorne um array de todas as médias
 
+
 const alunas = [
     { nome: "Ashley", prova: { p1: 5.6, p2: 6.7, p3: 9 } },
     { nome: "Sabrina", prova: { p1: 6.3, p2: 7.5, p3: 10 } },
@@ -12,3 +13,18 @@ const alunas = [
     { nome: "Alessandra", prova: { p1: 1.4, p2: 2.7, p3: 6.9 } },
     { nome: "Jane Kelly", prova: { p1: 7, p2: 5.5, p3: 9.1 } },
 ]
+
+
+
+const retornaMedias = (alunas) => {
+    let notasProvas = alunas.map((aluna) => aluna.prova);
+    let medias = notasProvas.map((nota) => (nota.p1 + nota.p2 + nota.p3)/3);
+    medias = medias.map((media) => Number(media.toFixed(1)));
+    return medias;
+}
+
+console.log("Médias da Turma:");
+
+console.log(retornaMedias(alunas));
+
+
