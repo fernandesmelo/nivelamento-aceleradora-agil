@@ -61,26 +61,3 @@ console.log(retornaAprovadas(resultados));
 
 
 
-// // Função para calcular a média
-// const calcularMedia = (prova) => {
-//     const soma = prova.p1 + prova.p2 + prova.p3;
-//     return parseFloat((soma / 3).toFixed(1));
-// };
-
-// // Função para verificar se uma aluna foi aprovada
-// const foiAprovada = (aluna) => {
-//     return calcularMedia(aluna.prova) >= 7;
-// };
-
-// // Função para retornar o array de médias
-// const medias = alunas.map((aluna) => ({
-//     nome: aluna.nome,
-//     media: calcularMedia(aluna.prova),
-//     aprovada: foiAprovada(aluna),
-// }));
-
-// // Função para retornar o array de nomes das aprovadas
-// const aprovadas = alunas.filter((aluna) => foiAprovada(aluna)).map((aluna) => aluna.nome);
-
-// console.log("Médias:", medias);
-// console.log("Aprovadas:", aprovadas);

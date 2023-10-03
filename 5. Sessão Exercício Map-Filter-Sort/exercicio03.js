@@ -12,3 +12,34 @@ const alunas = [
     { nome: "Alessandra", prova: { p1: 1.4, p2: 2.7, p3: 6.9 } },
     { nome: "Jane Kelly", prova: { p1: 7, p2: 5.5, p3: 9.1 } },
 ]
+
+const calculaMedia = (prova) => {
+    const soma = prova.p1 + prova.p2 + prova.p3;
+    return parseFloat(soma / 3);
+}
+
+const retornaResultados = () =>{
+    let alunasResultados = alunas.map((aluna) => {
+        return {
+            Nome: aluna.nome, 
+            Resultado: Number((calculaMedia(aluna.prova)).toFixed(1)) < 7 ? "Reprovada" : "Aprovada"
+        };
+    })
+    return alunasResultados;
+}
+
+const resultados = retornaResultados(alunas);
+
+console.log("Resultados das Médias");
+console.log(resultados);
+
+const retornaAprovadas = (resultados) => {
+    const aprovadas = resultados.filter((resultado) => {
+        return resultado.Resultado === "Reprovada"; 
+    })
+
+    return aprovadas;
+}
+
+console.log("Alunas Reprovadas:");
+console.log(retornaAprovadas(resultados));

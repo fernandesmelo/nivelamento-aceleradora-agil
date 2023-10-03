@@ -36,3 +36,23 @@ const alunas = [
     { nome: "Alessandra", prova: { p1: 1.4, p2: 2.7, p3: 6.9 } },
     { nome: "Jane Kelly", prova: { p1: 7, p2: 5.5, p3: 9.1 } },
 ]
+
+const calculaMedia = (prova) => {
+    const soma = prova.p1 + prova.p2 + prova.p3;
+    return parseFloat(soma / 3);
+}
+
+const formataObjeto = () =>{
+    let listaAlunos = alunas.map((aluna) => {
+        return {
+            Nome: aluna.nome, 
+            Média: Number((calculaMedia(aluna.prova)).toFixed(1)),
+            Aprovada: Number((calculaMedia(aluna.prova)).toFixed(1)) >= 7
+        };
+    })
+
+    return listaAlunos;
+}
+
+console.log("Lista com a situação de cada aluno:");
+console.log(formataObjeto());
