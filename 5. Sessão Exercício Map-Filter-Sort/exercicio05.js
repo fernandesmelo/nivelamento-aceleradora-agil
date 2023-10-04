@@ -13,3 +13,32 @@ const alunas = [
     { nome: "Alessandra", prova: { p1: 1.4, p2: 2.7, p3: 6.9 } },
     { nome: "Jane Kelly", prova: { p1: 7, p2: 5.5, p3: 9.1 } },
 ]
+
+const calculaMedia = (prova) => {
+    const soma = prova.p1 + prova.p2 + prova.p3;
+    return parseFloat(soma / 3);
+}
+
+const retornaAlunaMaiorNota = () =>{
+    let listaAlunos = alunas.map((aluna) => {
+        return {
+            Nome: aluna.nome, 
+            Media: Number((calculaMedia(aluna.prova)).toFixed(1))
+        };
+    })
+    let maiorNota =  listaAlunos.sort((a, b) => b.Media - a.Media);
+
+    return maiorNota[0].Nome;
+}
+
+console.log("A Aluna com maior nota foi:");
+console.log(retornaAlunaMaiorNota());
+
+
+
+
+
+
+ 
+
+

@@ -44,8 +44,8 @@ const retornaAprovadas = (resultados) => {
     return aprovadas;
 }
 
-console.log("Alunas aprovadas:");
-console.log(retornaAprovadas(resultados));
+// console.log("Alunas aprovadas:");
+// console.log(retornaAprovadas(resultados));
 
 
 
