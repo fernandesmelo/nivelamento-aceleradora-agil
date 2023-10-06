@@ -1,5 +1,4 @@
-//2.Fazer uma função que retorne um array de nomes das aprovadas
-
+//2.Fazer uma função que retorne um array de nomes das aprovadas.
 
 const alunas = [
     { nome: "Ashley", prova: { p1: 5.6, p2: 6.7, p3: 9 } },
@@ -12,52 +11,32 @@ const alunas = [
     { nome: "Jaqueline", prova: { p1: 3.4, p2: 7.2, p3: 6.8 } },
     { nome: "Alessandra", prova: { p1: 1.4, p2: 2.7, p3: 6.9 } },
     { nome: "Jane Kelly", prova: { p1: 7, p2: 5.5, p3: 9.1 } },
-]
+];
 
 const calculaMedia = (prova) => {
     const soma = prova.p1 + prova.p2 + prova.p3;
     return parseFloat(soma / 3);
-}
+};
 
-
-
-const retornaResultados = () =>{
+const retornaResultados = () => {
     let alunasResultados = alunas.map((aluna) => {
         return {
-            Nome: aluna.nome, 
+            Nome: aluna.nome,
             Resultado: Number((calculaMedia(aluna.prova)).toFixed(1)) >= 7 ? "Aprovada" : "Reprovada"
         };
-    })
+    });
     return alunasResultados;
-}
+};
 
 const resultados = retornaResultados(alunas);
 
-console.log("Resultados das Médias");
-console.log(resultados);
-
 const retornaAprovadas = (resultados) => {
     const aprovadas = resultados.filter((resultado) => {
-        return resultado.Resultado === "Aprovada"; 
-    })
+        return resultado.Resultado === "Aprovada";
+    });
 
     return aprovadas;
-}
+};
 
-// console.log("Alunas aprovadas:");
-// console.log(retornaAprovadas(resultados));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log("Alunas Aprovadas:");
+console.log(retornaAprovadas(resultados));

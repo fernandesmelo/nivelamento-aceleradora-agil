@@ -23,7 +23,6 @@
 //     { nome: "Samantha", media: 5.0, aprovada: false }
 // ]
 
-
 const alunas = [
     { nome: "Ashley", prova: { p1: 5.6, p2: 6.7, p3: 9 } },
     { nome: "Sabrina", prova: { p1: 6.3, p2: 7.5, p3: 10 } },
@@ -45,8 +44,8 @@ const calculaMedia = (prova) => {
 const formataObjeto = () =>{
     let listaAlunos = alunas.map((aluna) => {
         return {
-            Nome: aluna.nome, 
-            Média: Number((calculaMedia(aluna.prova)).toFixed(1)),
+            nome: aluna.nome, 
+            média: Number((calculaMedia(aluna.prova)).toFixed(1)),
             Aprovada: Number((calculaMedia(aluna.prova)).toFixed(1)) >= 7
         };
     })

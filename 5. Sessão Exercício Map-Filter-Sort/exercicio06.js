@@ -11,24 +11,25 @@ const alunas = [
     { nome: "Jaqueline", prova: { p1: 3.4, p2: 7.2, p3: 6.8 } },
     { nome: "Alessandra", prova: { p1: 1.4, p2: 2.7, p3: 6.9 } },
     { nome: "Jane Kelly", prova: { p1: 7, p2: 5.5, p3: 9.1 } },
-]
+];
 
 const calculaMedia = (prova) => {
     const soma = prova.p1 + prova.p2 + prova.p3;
     return parseFloat(soma / 3);
-}
+};
 
-const retornaAlunaMenorNota = () =>{
+const retornaAlunaMenorNota = () => {
     let listaAlunos = alunas.map((aluna) => {
         return {
-            Nome: aluna.nome, 
+            Nome: aluna.nome,
             Media: Number((calculaMedia(aluna.prova)).toFixed(1))
         };
-    })
-    let menorNota =  listaAlunos.sort((a, b) => a.Media - b.Media);
+    });
+    listaAlunos.sort((a, b) => a.Media - b.Media);
 
-    return menorNota[0].Nome;
-}
+    const alunaMenorNota = listaAlunos[0];
+    return alunaMenorNota;
+};
 
-console.log("A Aluna com menor nota foi:");
-console.log(retornaAlunaMenorNota());
+const alunaComMenorNota = retornaAlunaMenorNota();
+console.log(`A Aluna com menor nota foi ${alunaComMenorNota.Nome} com média ${alunaComMenorNota.Media}.`);

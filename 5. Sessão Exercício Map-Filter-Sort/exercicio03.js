@@ -1,4 +1,4 @@
-// 3.Fazer uma função que retorne um array de nome das reprovadas
+// 3.Fazer uma função que retorne um array de nome das reprovadas.
 
 const alunas = [
     { nome: "Ashley", prova: { p1: 5.6, p2: 6.7, p3: 9 } },
@@ -29,9 +29,6 @@ const retornaResultados = () =>{
 }
 
 const resultados = retornaResultados(alunas);
-
-console.log("Resultados das Médias");
-console.log(resultados);
 
 const retornaAprovadas = (resultados) => {
     const aprovadas = resultados.filter((resultado) => {
