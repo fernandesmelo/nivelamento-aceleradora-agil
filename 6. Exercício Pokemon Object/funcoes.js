@@ -10,26 +10,26 @@ const verificaNull = (caracteristica) => {
     return caracteristica === null ? 'Não possui' : formataNome(caracteristica);
 }
 
-const pegaHp = (atributos) => {
+const pegaAtributoHp = (atributos) => {
     return atributos.hp;
 }
 
-const pegaAtaque = (atributos) => {
+const pegaAtributoAtaque = (atributos) => {
     return atributos.attack;
 }
-const pegaAtaqueEspecial = (atributos) => {
+const pegaAtributoAtaqueEspecial = (atributos) => {
     return atributos.specialAttack;
 }
 
-const pegaDefesa = (atributos) => {
+const pegaAtributoDefesa = (atributos) => {
     return atributos.defense;
 }
 
-const pegaDefesaEspecial = (atributos) => {
+const pegaAtributoDefesaEspecial = (atributos) => {
     return atributos.specialDefense;
 }
 
-const pegaVelocidade = (atributos) => {
+const pegaAtributoVelocidade = (atributos) => {
     return atributos.speed;
 }
 
@@ -70,10 +70,10 @@ const printPokemon = pkm => {
   
     Atributos:
   
-      HP: ${pegaHp(pkm.attributes)}
-      ATK: ${pegaAtaque(pkm.attributes)} SpATK: ${pegaAtaqueEspecial(pkm.attributes)}
-      DEF: ${pegaDefesa(pkm.attributes)} SpDEF: ${pegaDefesaEspecial(pkm.attributes)}
-      SPEED: ${pegaVelocidade(pkm.attributes)}
+      HP: ${pegaAtributoHp(pkm.attributes)}
+      ATK: ${pegaAtributoAtaque(pkm.attributes)} SpATK: ${pegaAtributoAtaqueEspecial(pkm.attributes)}
+      DEF: ${pegaAtributoDefesa(pkm.attributes)} SpDEF: ${pegaAtributoDefesaEspecial(pkm.attributes)}
+      SPEED: ${pegaAtributoVelocidade(pkm.attributes)}
   
     Ataques:
       Lv ${pegaMovimentoTackle(pkm)}

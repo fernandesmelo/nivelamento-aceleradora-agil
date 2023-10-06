@@ -1,3 +1,3 @@
-const pokemon = require('./db-ratata')
+const pokemon = require('./db-ratata');
 
 console.log(pokemon);

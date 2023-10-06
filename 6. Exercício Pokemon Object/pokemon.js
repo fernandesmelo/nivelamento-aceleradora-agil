@@ -19,4 +19,4 @@ const printPokemon = pkm => {
       Lv 50 - Thunder`)
   }
   
-  module.exports = { printPokemon }
+  module.exports = { printPokemon };
