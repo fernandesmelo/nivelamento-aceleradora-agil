@@ -48,7 +48,7 @@ Próximos passos...
 ## ✒️ Integrantes do Nivelamento
 | <img src="https://github.com/fernandesmelo/carona-solidaria/assets/113717317/9bfaad36-461b-40fb-94c0-e80f575537a2" width="100" height="100" /> | <img src="https://github.com/fernandesmelo/nivelamento-aceleradora-agil/assets/113717317/bfaee705-3eac-43fd-8fce-614dd58e811f" width="100" height="100" /> 
 |:-------------------------------------------------------:|:-------------------------------------------------------:|
-| [Laércio Fernandes](https://www.linkedin.com/in/laercio-fernandes-desenvolvedor-web-front-end/) | [Joyce Caroline](https://www.linkedin.com/in/joyce-caroline-amorim/)                                         
+| [Laércio Fernandes](https://www.linkedin.com/in/laercio-fernandes/) | [Joyce Caroline](https://www.linkedin.com/in/joyce-caroline-amorim/)                                         
 
 
 
