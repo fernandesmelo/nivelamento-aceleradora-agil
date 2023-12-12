@@ -17,7 +17,10 @@ No nivelamento tinhamos vários cards, cada um sobre um assunto diferente conten
 Essas instruções permitirão que você tenha uma cópia dos exercícios em execução na sua máquina local.
 
 ### 📋 Pré-requisitos
-Você precisa ter instalado  no seu sistema operacional um navegador web para visualizar alguns exercícios localmente e o VSCode para ter acesso aos códigos. 
+Antes de começar, certifique-se de ter instalado em seu sistema operacional:
+* [Navegador Web](https://www.google.com/chrome/) para visualizar o projeto localmente.
+* [Visual Studio Code](https://code.visualstudio.com/) para acessar e editar os códigos.
+  
 ### 🔧 Instalação
 
 1. Clone este repositório para o seu computador.
