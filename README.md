@@ -32,8 +32,6 @@ Antes de começar, certifique-se de ter instalado em seu sistema operacional:
    * Após selecionar a pasta, ela será aberta no VSCode.
    * Você verá a estrutura de pastas e arquivos do projeto no painel lateral esquerdo.
    * A partir daqui, você pode explorar, editar e trabalhar com os arquivos da pasta aberta diretamente no VSCode.
-     
-A partir daqui, você pode explorar, editar e trabalhar com os arquivos da pasta aberta diretamente no VSCode.
 
 ### 🎉 Parabéns!
 Agora você tem os exercícios instalado e rodando localmente. Bom desenvolvimento!
