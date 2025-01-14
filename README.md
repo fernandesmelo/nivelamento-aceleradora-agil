@@ -36,9 +36,6 @@ Antes de começar, certifique-se de ter instalado em seu sistema operacional:
 ### 🎉 Parabéns!
 Agora você tem os exercícios instalado e rodando localmente. Bom desenvolvimento!
 
-## ⚙️ Executando os Testes
-Próximos passos...
-
 ## 🛠️ Exercícios com
 <div style="display: inline-block"><br/>
   <img align="center" alt="html5" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" />
@@ -54,7 +51,10 @@ Próximos passos...
 ## ✒️ Integrantes do Nivelamento
 | <img src="https://github.com/fernandesmelo/carona-solidaria/assets/113717317/9bfaad36-461b-40fb-94c0-e80f575537a2" width="100" height="100" /> | <img src="https://github.com/fernandesmelo/nivelamento-aceleradora-agil/assets/113717317/bfaee705-3eac-43fd-8fce-614dd58e811f" width="100" height="100" /> 
 |:-------------------------------------------------------:|:-------------------------------------------------------:|
-| [Laércio Fernandes](https://www.linkedin.com/in/laercio-fernandes/) | [Joyce Caroline](https://www.linkedin.com/in/joyce-caroline-amorim/)                                         
+| [Laércio Fernandes](https://www.linkedin.com/in/laercio-fernandes/) | [Joyce Caroline](https://www.linkedin.com/in/joyce-caroline-amorim/)    
+
+## ⚙️ Executando os Testes
+Próximos passos...
 
 
 
