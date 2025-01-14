@@ -53,12 +53,9 @@ Agora você tem os exercícios instalado e rodando localmente. Bom desenvolvimen
 |:-------------------------------------------------------:|:-------------------------------------------------------:|
 | [Laércio Fernandes](https://www.linkedin.com/in/laercio-fernandes/) | [Joyce Caroline](https://www.linkedin.com/in/joyce-caroline-amorim/)    
 
-## ⚙️ Executando os Testes
-Próximos passos...
-
-
-
-
 ## 🎁 Expressões de Gratidão
 Agradeço a minha parceira de nivelamento [Joyce Caroline](https://www.linkedin.com/in/joyce-caroline-amorim/) que me deu tantos eninamentos ao longo do nivelamento e [Julio Cesar](https://www.linkedin.com/in/julio-cesar-30757223a/) que nos ajudou tirando nossas dúvidas sempre que precisávamos🫂.
+
+## ⚙️ Executando os Testes
+Próximos passos...
 
